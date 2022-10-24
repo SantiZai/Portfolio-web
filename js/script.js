@@ -97,6 +97,7 @@ inputs.forEach((input) => {
 });
 
 const btnEnviar = document.getElementById('btn-enviar-form');
+const form = document.getElementById('form');
 function crearHref() {
   const asunto = document.getElementById('asunto').value;
   const mensaje = document.getElementById('mensaje').value;
@@ -104,3 +105,10 @@ function crearHref() {
     'mailto:santiagozaidandev@gmail.com?subject=' + asunto + '&body=' + mensaje
   );
 }
+
+function set() {
+  document.forms['form'].action = crearHref();
+  console.log(document.forms['form'].action);
+}
+
+btnEnviar.onclick = set;
