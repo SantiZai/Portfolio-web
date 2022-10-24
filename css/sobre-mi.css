@@ -73,3 +73,37 @@
   width: 50%;
   padding-left: 5rem;
 }
+
+@media screen and (max-width: 1280px) {
+  .contenedor-sobre-mi-inicio {
+    flex-direction: column;
+  }
+
+  .contenedor-sobre-mi {
+    width: 100%;
+  }
+
+  .contenedor-links-sobre-mi {
+    margin: auto;
+    padding: 4rem 0 0;
+  }
+
+  .contenedor-foto-sobre-mi {
+    width: 40%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .foto-sobre-mi {
+    padding: 0;
+  }
+
+  .sobre-mi-descripcion {
+    width: 100%;
+  }
+
+  .informacion-sobre-mi {
+    width: 100%;
+    padding: 0 3rem 0 5rem;
+  }
+}

@@ -105,7 +105,7 @@ div.text-slider {
   left: 0;
   background-color: var(--color10);
   transform: scaleX(0);
-  transition: transform .25s;
+  transition: transform 0.25s;
 }
 
 .nav-link::before {
@@ -121,4 +121,50 @@ div.text-slider {
 .nav-link:hover::before,
 .nav-link:hover::after {
   transform: scaleX(1);
+}
+
+@media screen and (max-width: 940px) {
+  .container-navbar {
+    background-color: var(--color6);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: var(--fuente2);
+  }
+
+  .navbar-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    column-gap: 1rem;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+  }
+
+  .nav-link {
+    width: max-content;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px var(--color8);
+    margin-bottom: 0.7rem;
+  }
+
+  span#slider-text {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  span#slider-text {
+    font-size: 5rem;
+  }
 }

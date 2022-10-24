@@ -29,6 +29,21 @@
   width: 60%;
   margin: auto;
   padding: .5rem;
+  border: 1px solid var(--color9);
+  border-radius: 5px;
+}
+
+#btn-enviar-form {
+ width: 30%;
+ padding: .3rem .5rem;
+ border: 1px solid var(--color9);
+ background-color: #fdfdfd;
+ border-radius: 5px;
+}
+
+#btn-enviar-form:hover {
+  background-color: var(--color9);
+  cursor: pointer;
 }
 
 .input-mensaje-error {

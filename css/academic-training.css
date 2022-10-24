@@ -4,6 +4,14 @@
   width: 100%;
 }
 
+.titulo-training {
+  font-size: 2rem;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 4rem;
+}
+
 .container-academic-trainings {
   width: 95%;
   margin: auto;
@@ -75,4 +83,35 @@
   height: 2px;
   margin: 2rem auto auto auto;
   background-color: var(--color10);
+}
+
+@media screen and (max-width: 1240px) {
+  .academic-training {
+    flex-direction: column;
+  }
+
+  .training {
+    width: 40%;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .training {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-academic-trainings {
+    width: 100%;
+  }
+
+  .academic-training {
+    padding: 1rem;
+  }
+
+  .training {
+    width: 100%;
+  }
 }
