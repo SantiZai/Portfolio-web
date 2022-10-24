@@ -1,0 +1,75 @@
+.sobre-mi {
+  background-color: var(--colorFondo);
+}
+
+.fondo-sobre-mi {
+  width: 100%;
+  background: linear-gradient(var(--colorFondo), var(--colorFondo2));
+}
+
+.contenedor-sobre-mi-inicio {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 2.5rem;
+}
+
+.contenedor-sobre-mi {
+  width: 40%;
+  margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-titulos-sobre-mi {
+  padding: 3rem 3rem 0rem 5rem;
+}
+
+.contenedor-links-sobre-mi {
+  padding: 5rem 3rem 0rem 5.5rem;
+}
+
+.link-sobre-mi {
+  margin-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.contenedor-foto-sobre-mi {
+  width: 40%;
+  padding-top: 2rem;
+  margin: auto auto auto 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foto-sobre-mi {
+  max-width: 400px;
+  padding-right: 3rem;
+}
+
+.imagen-sobre-mi {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.fondo-sobre-mi-descripcion {
+  background-color: var(--colorFondo2);
+  padding: 2rem 0;
+}
+
+.contenedor-sobre-mi-descripcion {
+  width: 90%;
+  margin: auto;
+}
+
+.sobre-mi-descripcion {
+  width: 80%;
+  margin: auto;
+}
+
+.informacion-sobre-mi {
+  width: 50%;
+  padding-left: 5rem;
+}

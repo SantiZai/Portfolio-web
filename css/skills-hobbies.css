@@ -1,0 +1,70 @@
+@import url(./variables.css);
+
+.skills-hobbies {
+  padding: 1rem 0 1rem 0;
+  background: linear-gradient(var(--colorFondo2), #fdfdfd);
+  overflow: hidden;
+}
+
+.container-skills .container-hobbies {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-hobbies-skills {
+  text-align: center;
+  margin: 1.5rem auto auto;
+  font-size: 30px;
+  font-family: var(--fuente2);
+}
+
+.container-hobbies {
+  margin-bottom: 2.5rem;
+}
+
+.container-skills-hobbies-cards {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+.skill-hobbie-card {
+  width: 150px;
+  height: 100px;
+  background-color: var(--colorFondo);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: auto 1rem;
+  font-family: var(--fuente2);
+  border-radius: 3px;
+  text-align: center;
+  transition: all 600ms;
+}
+
+.skill-hobbie-card:first-child {
+  margin: auto 1rem auto 0;
+}
+
+.skill-hobbie-card:last-child {
+  margin: auto 0 auto 1rem;
+}
+
+.icono-hobbie-skill {
+  color: var(--color1);
+  font-size: 50px;
+  margin: auto;
+  transition: all 400ms;
+}
+
+.icono-hobbie-skill:hover {
+  color: var(--color3);
+}
+
+.icono-hover {
+  box-shadow: 0px 0px 30px rgba(125, 133, 151, 0.2);
+}

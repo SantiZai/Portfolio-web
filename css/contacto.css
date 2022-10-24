@@ -1,0 +1,42 @@
+@import url(./variables.css);
+
+.fondo-contacto {
+  width: 100%;
+}
+
+.contenedor-formulario-contacto {
+  width: 90%;
+  margin: 5rem auto auto auto;
+}
+
+.formulario-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-input {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 60%;
+  margin: auto;
+  padding: .5rem;
+}
+
+.input-mensaje-error {
+  visibility: hidden;
+  width: 60%;
+  margin: auto;
+}
+
+.input-invalido {
+  border: 1px solid red;
+}
